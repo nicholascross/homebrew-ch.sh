@@ -1,9 +1,9 @@
 class Ch < Formula
   desc "Cheatsheet generator with markdown rendering"
   homepage "https://github.com/nicholascross/ch.sh"
-  url "https://github.com/nicholascross/ch.sh/archive/refs/tags/${LATEST_TAG}.tar.gz"
-  sha256 "${SHA256}"
-  version "${LATEST_TAG}"
+  url "https://github.com/nicholascross/ch.sh/archive/refs/tags/0.0.2.tar.gz"
+  sha256 "07a6aae62d1b4041b310841089be6a1ee07cf03d5596235fc13ef57077e89758"
+  version "0.0.2"
 
   depends_on "glow"
   depends_on "nicholascross/promptly/promptly"
